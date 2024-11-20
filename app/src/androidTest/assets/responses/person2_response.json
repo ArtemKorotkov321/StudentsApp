@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Katie",
+        "last": "Patel"
+      },
+      "location": {
+        "street": {
+          "number": 3329,
+          "name": "Theodosia Street"
+        },
+        "city": "Whanganui",
+        "state": "Hawke'S Bay",
+        "country": "New Zealand",
+        "postcode": 76694,
+        "coordinates": {
+          "latitude": "55.5679",
+          "longitude": "88.0817"
+        },
+        "timezone": {
+          "offset": "+1:00",
+          "description": "Brussels, Copenhagen, Madrid, Paris"
+        }
+      },
+      "email": "katie.patel@example.com",
+      "login": {
+        "uuid": "89e75ef4-b53c-4dbd-9f31-944425735124",
+        "username": "bigmeercat355",
+        "password": "catwoman",
+        "salt": "uoW2U2w9",
+        "md5": "7f8578ee4b942289d253cf8952793430",
+        "sha1": "991fd7536a16bda78add2238c0a60f732298ec62",
+        "sha256": "a82b7763a7bacdf429f295529eaeecdb24978a258e01c8fafd3ea1c564e2022c"
+      },
+      "dob": {
+        "date": "1998-07-29T21:41:33.955Z",
+        "age": 26
+      },
+      "registered": {
+        "date": "2007-06-27T08:22:50.155Z",
+        "age": 17
+      },
+      "phone": "(342)-301-2890",
+      "cell": "(294)-321-9561",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/17.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/17.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/17.jpg"
+      },
+      "nat": "NZ"
+    }
+  ],
+  "info": {
+    "seed": "b5af6c78cdab0279",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

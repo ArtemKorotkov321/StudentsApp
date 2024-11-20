@@ -31,6 +31,11 @@ android {
     kotlinOptions {
         jvmTarget = '17'
     }
+
+    testOptions {
+        animationsDisabled = true
+        execution 'ANDROIDX_TEST_ORCHESTRATOR'
+    }
 }
 
 dependencies {
@@ -39,6 +44,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    androidTestUtil 'androidx.test:orchestrator:1.4.2'
 
     // Networking
     implementation "com.squareup.retrofit2:retrofit:2.9.0"
@@ -66,4 +72,16 @@ dependencies {
     implementation 'androidx.databinding:baseLibrary:3.2.0-alpha11'
     kapt 'androidx.room:room-compiler:2.5.1'
 
+    // Test
+    testImplementation 'org.testng:testng:6.9.6'
+    androidTestImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'com.kaspersky.android-components:kaspresso:1.5.3'
+    androidTestImplementation 'com.kaspersky.android-components:kaspresso-allure-support:1.5.3'
+    androidTestImplementation 'io.qameta.allure:allure-kotlin-model:2.4.0'
+    androidTestImplementation 'io.qameta.allure:allure-kotlin-commons:2.4.0'
+    androidTestImplementation 'io.qameta.allure:allure-kotlin-junit4:2.4.0'
+    androidTestImplementation 'io.qameta.allure:allure-kotlin-android:2.4.0'
+    androidTestImplementation 'com.github.tomakehurst:wiremock-standalone:2.27.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation 'androidx.test.ext:junit-ktx:1.1.5'
 }
