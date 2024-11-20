@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Ariana",
+        "last": "Wilson"
+      },
+      "location": {
+        "street": {
+          "number": 9366,
+          "name": "South Eastern Highway"
+        },
+        "city": "Lower Hutt",
+        "state": "Hawke'S Bay",
+        "country": "New Zealand",
+        "postcode": 27791,
+        "coordinates": {
+          "latitude": "52.3548",
+          "longitude": "152.4075"
+        },
+        "timezone": {
+          "offset": "0:00",
+          "description": "Western Europe Time, London, Lisbon, Casablanca"
+        }
+      },
+      "email": "ariana.wilson@example.com",
+      "login": {
+        "uuid": "1e37ec64-319a-48b3-9162-bc2d1c03fc74",
+        "username": "blackpeacock816",
+        "password": "goldberg",
+        "salt": "fLPITpLg",
+        "md5": "75f6557eb6baef19313fca8f67c0a77d",
+        "sha1": "f11d80642cbd202c57e5f381c647a0f6538f7fb6",
+        "sha256": "15d6f23025930746ae39b244b7b7e4e84669978357eb685d5ce5ac6ad2592748"
+      },
+      "dob": {
+        "date": "1954-08-07T19:37:51.307Z",
+        "age": 70
+      },
+      "registered": {
+        "date": "2018-12-03T00:22:45.483Z",
+        "age": 5
+      },
+      "phone": "(702)-984-2954",
+      "cell": "(137)-956-6148",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/7.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/7.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/7.jpg"
+      },
+      "nat": "NZ"
+    }
+  ],
+  "info": {
+    "seed": "86eac48e68aaefcf",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Galina",
+        "last": "Subašić"
+      },
+      "location": {
+        "street": {
+          "number": 8528,
+          "name": "Tuniska"
+        },
+        "city": "Lebane",
+        "state": "Mačva",
+        "country": "Serbia",
+        "postcode": 23937,
+        "coordinates": {
+          "latitude": "58.2761",
+          "longitude": "94.4898"
+        },
+        "timezone": {
+          "offset": "+3:00",
+          "description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+        }
+      },
+      "email": "galina.subasic@example.com",
+      "login": {
+        "uuid": "4ca8dd65-2129-4cd2-b984-8c0b4c3a603e",
+        "username": "crazyleopard785",
+        "password": "lesbens",
+        "salt": "giMW1kUL",
+        "md5": "aea8e80e2553ecc04521b700f5a45a50",
+        "sha1": "6b49e0972410d3d1b8c3dcefc2753d15b56cc495",
+        "sha256": "749197eca5620123d6c9a73472d4dd4ca12e41938af1cf4554b118600ff8148c"
+      },
+      "dob": {
+        "date": "1924-09-26T02:06:01.842Z",
+        "age": 100
+      },
+      "registered": {
+        "date": "2016-04-01T03:30:26.255Z",
+        "age": 8
+      },
+      "phone": "032-6402-928",
+      "cell": "062-0169-134",
+      "id": {
+        "name": "SID",
+        "value": "837213606"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/25.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/25.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/25.jpg"
+      },
+      "nat": "RS"
+    }
+  ],
+  "info": {
+    "seed": "4ade0f5831a15bc9",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
